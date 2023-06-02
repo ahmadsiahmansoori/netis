@@ -1,7 +1,7 @@
 # netis company
-## document Api (Plan B)
+### functionality System
 ### Language: typescript (.ts)
-## package: Rxjs
+### package: Rxjs
 
 ```
 

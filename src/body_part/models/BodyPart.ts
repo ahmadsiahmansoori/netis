@@ -1,6 +1,6 @@
 import { Observable, from, of } from "rxjs";
 import { Inquiry } from "../../public/interface/Inquiry";
-import { BodyRequestInquiry, BodyResponseInquiry } from "../interface/IInquiry";
+import { BodyRequestInquiry, BodyResponseInquiry } from "../interface/Inquiry";
 
 export abstract class BodyPart {
     
