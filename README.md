@@ -42,7 +42,7 @@
 - [ ] show
 
 
-### File Manger
+## File Manger
 - [x] Upload File Image (png , jpg)
 - [ ] validation 
 - [ ] compress
@@ -51,13 +51,13 @@
 - [ ] read file 
 
 
-### Payment
+## Payment
 - [x] R&D DB
 - [ ] Call , Payment gateway
 - [ ] index
 - [ ] show
 
-### User Manger
+## User Manger
 - [ ] User
 - [ ] authentication , authorization
 - [ ] rbac

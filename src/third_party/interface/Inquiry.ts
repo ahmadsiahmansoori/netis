@@ -8,8 +8,8 @@ import { VehicleKind } from "../../public/interface/VehicleKind";
 import { VehicleSystem } from "../../public/interface/VehicleSystem";
 import { VehicleUsedType } from "../../public/interface/VehicleUsedType";
 
-export interface RequestInquiry {
-    "validityDuration":  CalcKind,
+export interface RequestThirdPartyInquiry {
+    "validityDuration":  CalcKind|null,
     "vehicleType": VehicleGroup,
     "vehicleUx": VehicleUsedType,
     "vehicleBrand": VehicleSystem,
@@ -27,7 +27,7 @@ export interface RequestInquiry {
     "plaqueIranDigit":number|null,
     "percentThirdParty":number|null,
     "percentDriver":number|null,
-    "hasDamage": number,
+    "hasDamage": boolean,
     "damageFinancial": Dmg|null,
     "damageHealth": Dmg|null,
     "damageDriver": Dmg|null,
@@ -37,9 +37,9 @@ export interface RequestInquiry {
 }
 
 
-export interface ResponseInquiry {
+export interface ResponseThirdPartyInquiry {
     "thirdPartyInsuranceList": Inquiry[],
-    "inquiryDetails": RequestInquiry,
+    "inquiryDetails": RequestThirdPartyInquiry,
     "totalCount": number,
 }
 
