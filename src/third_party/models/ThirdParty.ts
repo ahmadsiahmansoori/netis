@@ -60,7 +60,7 @@ export abstract class ThirdParty {
 
     /*
         --- Detail Third part   ---
-        http request Method POST
+        http request Method GET
         set header Authentication Bear {Token}
         set  query params for url  {id}
         url: "{URL}/{id}"
