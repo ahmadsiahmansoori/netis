@@ -1,8 +1,16 @@
 # netis company
 ## document Api (Plan B)
 ### Language: typescript (.ts)
+## package: Rxjs
+
+```
+
+    npm install rxjs
+
+```
 
 
+# Things that need to be doneٌٌ
 ### Order 
 - [x] Inquiry
 - [x] Insert
@@ -34,6 +42,7 @@
 - [x] Upload File Image (png , jpg)
 - [ ] validation 
 - [ ] compress
+- [ ] delete
 - [x] index
 - [ ] read file 
 
@@ -48,10 +57,5 @@
 - [ ] User
 - [ ] authentication , authorization
 - [ ] rbac
-
-
-
-
-## Public Api Call
 
 
