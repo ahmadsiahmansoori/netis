@@ -11,7 +11,7 @@
 - [x] show
 - [x] index
 
-# Third Party
+### Third Party
 - [x] Inquiry
 - [x] index 
 - [x] show 
@@ -20,7 +20,7 @@
 - [x] index
 - [ ] show
 
-# Body Part
+### Body Part
 - [x] Inquiry
 - [ ] index 
 - [ ] show 
@@ -30,7 +30,7 @@
 - [ ] show
 
 
-# File Manger
+### File Manger
 - [x] Upload File Image (png , jpg)
 - [ ] validation 
 - [ ] compress
@@ -38,20 +38,20 @@
 - [ ] read file 
 
 
-# Payment
+### Payment
 - [x] R&D DB
 - [ ] Call , Payment gateway
 - [ ] index
 - [ ] show
 
-# User Manger
-- [] User
-- [] authentication , authorization
-- [] rbac
+### User Manger
+- [ ] User
+- [ ] authentication , authorization
+- [ ] rbac
 
 
 
 
-### Public Api Call
+## Public Api Call
 
 
