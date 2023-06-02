@@ -6,8 +6,8 @@
 ### Order 
 - [x] Inquiry
 - [x] Insert
-- [] Update
-- [] Delete
+- [ ] Update
+- [ ] Delete
 - [x] show
 - [x] index
 
@@ -18,31 +18,31 @@
 
 - [x] Detail
 - [x] index
-- [] show
+- [ ] show
 
 # Body Part
 - [x] Inquiry
-- [] index 
-- [] show 
+- [ ] index 
+- [ ] show 
 
-- [] Detail
-- [] index
-- [] show
+- [ ] Detail
+- [ ] index
+- [ ] show
 
 
 # File Manger
 - [x] Upload File Image (png , jpg)
-- [] validation 
-- [] compress
+- [ ] validation 
+- [ ] compress
 - [x] index
-- [] read file 
+- [ ] read file 
 
 
 # Payment
 - [x] R&D DB
-- [] Call , Payment gateway
-- [] index
-- [] show
+- [ ] Call , Payment gateway
+- [ ] index
+- [ ] show
 
 # User Manger
 - [] User
