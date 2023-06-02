@@ -8,7 +8,7 @@ import { VehicleKind } from "../../public/interface/VehicleKind";
 import { VehicleSystem } from "../../public/interface/VehicleSystem";
 import { VehicleUsedType } from "../../public/interface/VehicleUsedType";
 
-export interface RequestThirdPartyInquiry {
+export interface RQThirdPartyInquiry {
     "validityDuration":  CalcKind|null,
     "vehicleType": VehicleGroup,
     "vehicleUx": VehicleUsedType,
@@ -37,9 +37,9 @@ export interface RequestThirdPartyInquiry {
 }
 
 
-export interface ResponseThirdPartyInquiry {
+export interface RSThirdPartyInquiry {
     "thirdPartyInsuranceList": Inquiry[],
-    "inquiryDetails": RequestThirdPartyInquiry,
+    "inquiryDetails": RQThirdPartyInquiry,
     "totalCount": number,
 }
 

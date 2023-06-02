@@ -14,7 +14,7 @@ import { NoFabricDetail } from "../../public/interface/no_fabric_detail";
 
 
 
-export interface BodyRequestInquiry {
+export interface RQBodyPartInquiry {
     "vehicle_group": VehicleGroup,
     "used": VehicleUsedType,
     "vehicle_system": VehicleSystem,
@@ -42,8 +42,8 @@ export interface BodyRequestInquiry {
 }
 
 
-export interface BodyResponseInquiry {
+export interface RSBodyPartInquiry {
     "bodyPartyInsuranceList": Inquiry[],
-    "inquiryDetails": BodyRequestInquiry,
+    "inquiryDetails": RQBodyPartInquiry,
     "totalCount": number,
 }
