@@ -293,5 +293,16 @@ export abstract class ThirdParty {
         return of(res)    
     }
 
+    /*
+        --- Detail Third part set Order  ---
+        http request Method POST
+        Need: order_id , id (info_id)
+        @form mac data requst
+        @res  mac data response
+    */
+    public setDetail() {
+
+    }
+
 
 }

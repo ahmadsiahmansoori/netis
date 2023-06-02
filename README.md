@@ -1,4 +1,4 @@
-# netis company
+# Doc - Netis 
 ### functionality System
 ### Language: typescript (.ts)
 ### package: Rxjs
@@ -21,23 +21,23 @@
 ## Third Party
 
 ### Inquiry
-- [x] Inquiry
+- [x] insert
 - [x] index 
 - [x] show 
 
 ### Detail
-- [x] Detail
+- [x] insert
 - [x] index
 - [ ] show
 
 ## Body Part
 ### Inquiry
-- [x] Inquiry
+- [x] insert
 - [ ] index 
 - [ ] show 
 
 ### Detail
-- [ ] Detail
+- [ ] insert
 - [ ] index
 - [ ] show
 
