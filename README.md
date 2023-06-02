@@ -19,20 +19,25 @@
 - [x] index
 
 ## Third Party
-### - [x] Inquiry
+
+### Inquiry
+- [x] Inquiry
 - [x] index 
 - [x] show 
 
-### - [x] Detail
+### Detail
+- [x] Detail
 - [x] index
 - [ ] show
 
 ## Body Part
-### - [x] Inquiry
+### Inquiry
+- [x] Inquiry
 - [ ] index 
 - [ ] show 
 
-### - [ ] Detail
+### Detail
+- [ ] Detail
 - [ ] index
 - [ ] show
 
