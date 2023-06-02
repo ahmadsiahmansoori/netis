@@ -11,29 +11,28 @@
 
 
 # Things that need to be doneٌٌ
-### Order 
-- [x] Inquiry
+## Order 
 - [x] Insert
 - [ ] Update
 - [ ] Delete
 - [x] show
 - [x] index
 
-### Third Party
-- [x] Inquiry
+## Third Party
+### - [x] Inquiry
 - [x] index 
 - [x] show 
 
-- [x] Detail
+### - [x] Detail
 - [x] index
 - [ ] show
 
-### Body Part
-- [x] Inquiry
+## Body Part
+### - [x] Inquiry
 - [ ] index 
 - [ ] show 
 
-- [ ] Detail
+### - [ ] Detail
 - [ ] index
 - [ ] show
 
