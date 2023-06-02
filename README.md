@@ -1,9 +1,9 @@
-### netis company
+# netis company
 ## document Api (Plan B)
-# Language: typescript (.ts)
+### Language: typescript (.ts)
 
 
-# Order 
+### Order 
 - [x] Inquiry
 - [x] Insert
 - [] Update
