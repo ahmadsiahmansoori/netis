@@ -5,3 +5,5 @@ export interface NoFabricDetail {
     price: number,
     caption: string|null
 }
+
+
