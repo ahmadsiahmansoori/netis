@@ -33,13 +33,16 @@ class m230603_110218_body_part_detail extends Migration
             "owner_first_name" => $this->string(),
             "owner_last_name" => $this->string(),
             "owner_call_number" => $this->string(),
+
             "place_visit_vehicle_type" => $this->integer(),
+
             'place_visit_location_vendor_id' => $this->integer(),
             "place_visit_location_vehicle_province_id" => $this->integer(),
             "place_visit_location_vehicle_city_id" => $this->integer(),
             'place_visit_location_address' => $this->text(),
             'place_visit_location_call_number' => $this->string(),
             'place_visit_location_postal_code' => $this->string(),
+            'location_user_address_id' => $this->integer(),
             'email' => $this->string(),
             'description' => $this->text(),
             'created_at' => $this->integer(),
@@ -47,9 +50,25 @@ class m230603_110218_body_part_detail extends Migration
         ]);
 
 
-        $this->createTable('insurance_mihan_vendor' , [
-
+        $this->createTable('vendor_insurance_company' , [
+            'id' => $this->primaryKey(),
+            'vendor_name' => $this->string(),
+            'province' => $this->integer(),
+            'city' => $this->integer(),
+            'address' => $this->text(),
+            'phone' => $this->string(),
+            'fax_number' => $this->string(),
+            'call_number' => $this->string(),
+            'status' => $this->integer(),
+            'created_at' => $this->integer(),
+            'updated_at' => $this->integer(),
+            'deleted_at' => $this->integer(),
         ]);
+
+
+
+
+
 
     }
 

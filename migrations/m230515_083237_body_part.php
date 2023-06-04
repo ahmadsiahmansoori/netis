@@ -70,9 +70,6 @@ class m230515_083237_body_part extends Migration
         ]);
 
 
-
-
-
         #  items other not fabric
         $this->createTable('body_part_inquiry_other_non_fabric' , [
             'id' => $this->primaryKey(),
