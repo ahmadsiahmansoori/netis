@@ -34,6 +34,7 @@ class m230603_110218_body_part_detail extends Migration
             "owner_last_name" => $this->string(),
             "owner_call_number" => $this->string(),
 
+
             "place_visit_vehicle_type" => $this->integer(),
 
             'place_visit_location_vendor_id' => $this->integer(),
@@ -42,6 +43,7 @@ class m230603_110218_body_part_detail extends Migration
             'place_visit_location_address' => $this->text(),
             'place_visit_location_call_number' => $this->string(),
             'place_visit_location_postal_code' => $this->string(),
+
             'location_user_address_id' => $this->integer(),
             'email' => $this->string(),
             'description' => $this->text(),
@@ -64,6 +66,7 @@ class m230603_110218_body_part_detail extends Migration
             'updated_at' => $this->integer(),
             'deleted_at' => $this->integer(),
         ]);
+
 
 
 
